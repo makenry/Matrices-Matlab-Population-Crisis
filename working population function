@@ -1,0 +1,6 @@
+function [workpop] = workpop(pop)
+%extracts the working pop(pop lesile matrix) cloumns from the steady state
+workpop=pop(:,3:7);
+
+end
+
